@@ -3,9 +3,10 @@ import { RepositoryItem } from "./RepositoryItem";
 const repository = {
    name: 'unform',
    repository: "unform2", 
-   description:"Formas in React", 
+   description:"Forms in React", 
    link:"https://github.com/unform/unform"
   }
+  
 export function RepositoryList() {
    return(
         <section className="repository-list">
