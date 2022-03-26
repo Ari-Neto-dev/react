@@ -1,7 +1,5 @@
 import  { useState } from 'react';
 
-//começando comm USE chamamos de hook
-
 export function Counter() { 
   const[counter, setCounter ] = useState(0);
 
@@ -13,7 +11,7 @@ export function Counter() {
         <div>
             <h2>{counter}</h2>
             <button type="button" onClick={increment}>
-              Increment
+              Increment 
             </button>
         </div>
     );
